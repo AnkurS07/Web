@@ -49,7 +49,7 @@ function displayCat() {
     // Set the source (file path) for the ank image
     catImage.src = 'ank.gif'; // Assuming the ank image is named "ank.gif"
     // Set alternative text for the image (for accessibility)
-    catImage.alt = 'ank';
+    catImage.alt = 'Cat';
     // When the ank image is fully loaded, add it to the image container
     catImage.onload = function() {
         imageContainer.appendChild(catImage);
